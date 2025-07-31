@@ -533,6 +533,9 @@ subscription.remove();
 
 When React Native apps go to the background, React may unmount your components or even your entire app. To ensure continuous audio playback and event handling, **always set up audio event listeners outside the React component lifecycle**.
 
+> [!NOTE]  
+> If you're using Expo Router, you'll need to create a custom entry point before following the steps below. See [Expo's documentation](https://docs.expo.dev/router/installation/#custom-entry-point-to-initialize-and-load) for more information.
+
 ### Example Setup Pattern
 
 ```javascript
