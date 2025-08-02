@@ -76,9 +76,9 @@ export enum AudioProAmbientEventType {
 }
 
 /**
- * Skip interval in seconds
+ * Default skip interval in milliseconds (10 seconds)
  */
-export const DEFAULT_SKIP_INTERVAL = 10;
+export const DEFAULT_SKIP_INTERVAL_MS = 10000;
 
 /**
  * Default configuration options for the audio player
@@ -96,6 +96,6 @@ export const DEFAULT_CONFIG: AudioProConfigureOptions = {
 	showNextPrevControls: true,
 	/** Whether to show skip forward/back controls in notification */
 	showSkipControls: false,
-	/** Skip interval in seconds */
-	skipInterval: DEFAULT_SKIP_INTERVAL,
+	/** Interval in milliseconds for skip forward/back actions */
+	skipIntervalMs: DEFAULT_SKIP_INTERVAL_MS,
 };
