@@ -76,9 +76,9 @@ export enum AudioProAmbientEventType {
 }
 
 /**
- * Default skip interval in milliseconds (10 seconds)
+ * Default skip interval in milliseconds (30 seconds)
  */
-export const DEFAULT_SKIP_INTERVAL_MS = 10000;
+export const DEFAULT_SKIP_INTERVAL_MS = 30000;
 
 /**
  * Default configuration options for the audio player

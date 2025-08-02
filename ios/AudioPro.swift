@@ -71,7 +71,7 @@ class AudioPro: RCTEventEmitter {
 	private var lastEmittedState: String = ""
 	private var wasPlayingBeforeInterruption: Bool = false
 	private var pendingStartTimeMs: Double? = nil
-	private var settingSkipIntervalMs: Double = 10000.0
+	private var settingSkipIntervalMs: Double = 30000.0
 
 	////////////////////////////////////////////////////////////
 	// MARK: - React Native Event Emitter Overrides
